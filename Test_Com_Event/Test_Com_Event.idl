@@ -1,0 +1,45 @@
+// Test_Com_Event.idl : Test_Com_Event的 IDL 源
+//
+
+// 此文件将由 MIDL 工具处理以
+// 产生类型库(Test_Com_Event.tlb)和封送处理代码。
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(F86E7E46-9E4A-422B-A00B-52A459891ADA),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface ITest_Event : IDispatch{
+	[id(1)]HRESULT Test_FuncA([in]int num);
+};
+[
+	uuid(9B0ACC87-96CC-4EEA-AE4D-97A35C14E975),
+	version(1.0),
+]
+library Test_Com_EventLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(956B1EC8-F407-459C-94A3-7F2E93201F1E)		
+	]
+	dispinterface _ITest_EventEvents
+	{
+		properties:
+		methods:
+		[id(1)]HRESULT Test_Notify([in]int num);
+	};
+	[
+		uuid(18BBF49D-5271-4006-84DD-94D06FC58B35)		
+	]
+	coclass Test_Event
+	{
+		[default] interface ITest_Event;
+		[default, source] dispinterface _ITest_EventEvents;
+	};
+};
+
