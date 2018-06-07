@@ -8,6 +8,6 @@
 
 HRESULT CTest_Event::Test_FuncA(int num)
 {
-	Fire_Test_Notify(num);
+	OnTest_Notify(num);
 	return S_OK;
 }

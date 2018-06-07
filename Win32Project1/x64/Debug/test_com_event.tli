@@ -1,0 +1,29 @@
+﻿// Created by Microsoft (R) C/C++ Compiler Version 14.00.23026.0 (42d928f3).
+//
+// d:\git_project\com_event-master\win32project1\x64\debug\test_com_event.tli
+//
+// Wrapper implementations for type library ../x64/Debug/Test_Com_Event.dll
+// compiler-generated file created 06/07/18 at 15:53:25 - DO NOT EDIT!
+
+#pragma once
+
+//
+// dispinterface _ITest_EventEvents wrapper method implementations
+//
+
+inline HRESULT _ITest_EventEvents::Test_Notify ( unsigned __int64 num ) {
+    HRESULT _result = 0;
+    _com_dispatch_method(this, 0x1, DISPATCH_METHOD, VT_ERROR, (void*)&_result, 
+        L"\x0014", num);
+    return _result;
+}
+
+//
+// interface ITest_Event wrapper method implementations
+//
+
+inline HRESULT ITest_Event::Test_FuncA ( int num ) {
+    HRESULT _hr = raw_Test_FuncA(num);
+    if (FAILED(_hr)) _com_issue_errorex(_hr, this, __uuidof(this));
+    return _hr;
+}

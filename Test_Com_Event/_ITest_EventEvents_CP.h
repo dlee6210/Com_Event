@@ -7,7 +7,7 @@ class CProxy_ITest_EventEvents : public IConnectionPointImpl<T, &__uuidof( _ITes
 {
 	// 警告:  此类可以由向导重新生成
 public:
-	HRESULT Fire_Test_Notify(int num)
+	HRESULT OnTest_Notify(int num)
 	{
 		HRESULT hr = S_OK;
 		T * pThis = static_cast<T *>(this);

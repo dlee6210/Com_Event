@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_write_read", "Test_write_read\Test_write_read.vcxproj", "{64193348-24FC-40FA-8857-CDB343CFCA36}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ATLProject1", "ATLProject1\ATLProject1.vcxproj", "{22298DA6-2092-4D45-8B9B-4531AB7DB2FA}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Win32Project1", "Win32Project1\Win32Project1.vcxproj", "{A93E2758-A465-4B1E-96D9-1C52F562AE86}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_Com_Event", "Test_Com_Event\Test_Com_Event.vcxproj", "{18034120-DDFF-4B87-8F27-548978DDC1D4}"
@@ -19,22 +15,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{64193348-24FC-40FA-8857-CDB343CFCA36}.Debug|x64.ActiveCfg = Debug|x64
-		{64193348-24FC-40FA-8857-CDB343CFCA36}.Debug|x64.Build.0 = Debug|x64
-		{64193348-24FC-40FA-8857-CDB343CFCA36}.Debug|x86.ActiveCfg = Debug|Win32
-		{64193348-24FC-40FA-8857-CDB343CFCA36}.Debug|x86.Build.0 = Debug|Win32
-		{64193348-24FC-40FA-8857-CDB343CFCA36}.Release|x64.ActiveCfg = Release|x64
-		{64193348-24FC-40FA-8857-CDB343CFCA36}.Release|x64.Build.0 = Release|x64
-		{64193348-24FC-40FA-8857-CDB343CFCA36}.Release|x86.ActiveCfg = Release|Win32
-		{64193348-24FC-40FA-8857-CDB343CFCA36}.Release|x86.Build.0 = Release|Win32
-		{22298DA6-2092-4D45-8B9B-4531AB7DB2FA}.Debug|x64.ActiveCfg = Debug|x64
-		{22298DA6-2092-4D45-8B9B-4531AB7DB2FA}.Debug|x64.Build.0 = Debug|x64
-		{22298DA6-2092-4D45-8B9B-4531AB7DB2FA}.Debug|x86.ActiveCfg = Debug|Win32
-		{22298DA6-2092-4D45-8B9B-4531AB7DB2FA}.Debug|x86.Build.0 = Debug|Win32
-		{22298DA6-2092-4D45-8B9B-4531AB7DB2FA}.Release|x64.ActiveCfg = Release|x64
-		{22298DA6-2092-4D45-8B9B-4531AB7DB2FA}.Release|x64.Build.0 = Release|x64
-		{22298DA6-2092-4D45-8B9B-4531AB7DB2FA}.Release|x86.ActiveCfg = Release|Win32
-		{22298DA6-2092-4D45-8B9B-4531AB7DB2FA}.Release|x86.Build.0 = Release|Win32
 		{A93E2758-A465-4B1E-96D9-1C52F562AE86}.Debug|x64.ActiveCfg = Debug|x64
 		{A93E2758-A465-4B1E-96D9-1C52F562AE86}.Debug|x64.Build.0 = Debug|x64
 		{A93E2758-A465-4B1E-96D9-1C52F562AE86}.Debug|x86.ActiveCfg = Debug|Win32
